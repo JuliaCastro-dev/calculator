@@ -1,0 +1,94 @@
+
+body{
+    background-color: #061116;
+    display:absolute;
+   
+}
+.calch1{
+    color: aliceblue;
+    font-family:Medium;
+    margin-top: 12%;
+}
+.julia{
+    color: aquamarine;
+    margin-top: -1%;
+    margin-left: 35px;
+}
+.main{
+    background:#061116;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+
+}
+.button{
+    color: lavender;
+    background-color:#091921;
+    border:1px solid lavender;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+    margin:5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover{
+
+    background-color: #0c98e9;
+}
+.textview{
+    margin-top: 25px;
+    margin-bottom: -5px;
+    width: 210px;
+    height: 70px;
+    margin:5;
+    font-weight: 700;
+    font-size: 45;
+    padding: 5;
+    border-radius:3px;
+    border: none;
+}
+#c{
+    color: lavender;
+    background-color:#ff009d;
+}
+
+
+a{
+    margin-top: 45%;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    padding: 12px 36px;
+}
+
+span{
+    position: absolute;
+    background: #fff;
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        width: 0px;
+        height: 0px;
+    }
+    100%
+    {
+        width: 50px;
+        height: 50px;
+    }
+    
+}
